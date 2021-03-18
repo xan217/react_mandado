@@ -1,0 +1,32 @@
+.bg-nav{
+   background-color: #dabb5b;
+   -webkit-box-shadow: 0px 5px 5px 0px rgba(120,120,120,1);
+   -moz-box-shadow: 0px 5px 5px 0px rgba(120,120,120,1);
+   box-shadow: 0px 5px 5px 0px rgba(120,120,120,1);  
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+.buttons{
+   display: flex;
+   height: 70px;
+}
+.nav-button{
+   height: fit-content;
+   margin: 10px;
+   padding: 5px 15px;
+   border-radius: 5px;
+   background-color: inherit;
+   border: none;
+   font-size: 20pt;
+   color: #64500f;
+   transition: 0.3s;
+}
+.nav-button:hover{
+   background-color: #907419;
+   color: white;
+   transition: 0.3s;
+}
+.nav-logo{
+   width: 150px;
+}

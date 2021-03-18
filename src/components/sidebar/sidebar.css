@@ -1,0 +1,48 @@
+.spacer-menu{
+    height: 50px;   
+ }
+ .sidebar {
+    height: calc(100% - 90px); 
+    position: absolute;
+    z-index: 1;
+    top: 88px; 
+    left: 0;
+    background-color: #807e7e; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+  }
+  
+  .sidebar span {
+    padding: 14px 8px 14px 32px;
+    margin: 5px 0px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+    background-color: #f2c94c;
+  }
+  .sidebar span:hover {
+   background-color: #907419;
+    color: #f1f1f1;
+    transition: 0.3s;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background-color: inherit;
+    padding: 0;
+  }
+ 
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
